@@ -126,13 +126,9 @@ def parameterize(input_molecule,hmr=False,input_molecule_name="MOL"):
         pass
 
 
-input_molecule="/home/magarkar/ing_work/playground/openff_sage/mol.sdf"
-hmr=True
-input_molecule_name="MOL"
-
 #prepare_workdir(input_molecule,hmr,input_molecule_name)
 parser = argparse.ArgumentParser(
-    description='Performs some useful work.',
+    description='OpenFF topology generator for small molecules',
 )
 
 
