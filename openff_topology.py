@@ -56,7 +56,7 @@ def parameterize(input_molecule,hmr=False,input_molecule_name="MOL"):
         obConversion2.SetInAndOutFormats("sdf", "sdf")
     elif ".mol2" in input_molecule:
         obConversion1.SetInAndOutFormats("mol2", "pdb")
-        obConversion2.SetInAndOutFormats("sdf", "sdf")
+        obConversion2.SetInAndOutFormats("mol2", "sdf")
     else:
         print("Provide valid input molecule .mol2 or .sdf with a single molecule entry")
 
